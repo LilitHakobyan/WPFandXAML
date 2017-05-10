@@ -1,0 +1,28 @@
+﻿<Window x:Class="MenuLengApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuLengApp"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+   
+        <StackPanel  Background="Brown"  >
+            <Button Name="cmdLenguage"
+                    VerticalAlignment="Top"
+                    
+                    Content="Lenguage" Click="cmdLenguage_Click" Margin="41,5,46,5" Padding="2" />
+        <Button Name="cmdNext"  Margin="41,5,46,5" Padding="2"   Content="Next">
+                
+            </Button>
+        <Button Name="cmdBack"  Margin="41,5,46,5" Padding="2" Content="Back">
+                
+            </Button>
+            <Button Name="cmdClose"
+                    VerticalAlignment="Bottom"
+                    Margin="41,5,46,5" Padding="2"
+                    Content="Закрыть" Click="cmdClose_Click" />
+            
+        </StackPanel>
+  
+</Window>
