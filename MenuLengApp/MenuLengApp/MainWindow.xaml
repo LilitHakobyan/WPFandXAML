@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MenuLengApp"
         mc:Ignorable="d"
-        Title="MainWindow" SizeToContent="WidthAndHeight">
+        Title="Menu" SizeToContent="WidthAndHeight"
+        ResizeMode="CanMinimize">
    
         <StackPanel  Background="Brown"  >
             <Button Name="cmdLenguage"
