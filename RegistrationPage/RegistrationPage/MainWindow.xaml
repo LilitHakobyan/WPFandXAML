@@ -58,6 +58,6 @@
                 <PasswordBox Grid.Row="6" Height="30" Width="250" Name="PasswordBoxConfirm" FontSize="15"></PasswordBox>
             </Grid>
         </Grid>
-        <Button Grid.Row="2" Margin="50 20 50 20" Content="Join Now" FontSize="30" Height="40" Width="250" Background="#FF5D6679" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Snap ITC" Click="Button_Click" />
+        <Button Grid.Row="2" Margin="50 20 50 20" Content="Join Now" FontSize="30" Height="40" Width="250" Background="#FF5D6679" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Snap ITC" Click="Button_Click"/>
     </Grid>
 </Window>
